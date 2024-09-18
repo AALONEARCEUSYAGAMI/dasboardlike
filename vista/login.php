@@ -37,10 +37,10 @@
            <div class="col-12 col-md-8 col-lg-6 col-xl-5 col-xxl-4 mx-auto">
             <div class="card rounded-4 mb-0 border-top border-4 border-primary border-gradient-1">
               <div class="card-body p-5">
-                  <img src="assets/images/logo1.png" class="mb-4" width="145" alt="">
+                 <center><img src="assets/images/logo1.png" class="mb-4" width="145" alt="">
                   <h4 class="fw-bold">Panel Black Inteligence</h4>
                   <p class="mb-0">Ingrese sus credenciales para iniciar sesión en su cuenta</p>
-
+                  </center> 
                   <div class="form-body my-5">
 										<form class="row g-3">
 											<div class="col-12">
