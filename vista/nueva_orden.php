@@ -138,13 +138,13 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                       <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="NEW-tab" data-id="everything">NEW ORDER</button>
+                        <button class="nav-link active" id="NEW-tab" data-id="everything">NUEVA ORDEN</button>
                       </li>
                       <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="FAV-tab" data-id="favorite">MY FAVORITE</button>
+                        <button class="nav-link" id="FAV-tab" data-id="favorite">MI FAVORITA</button>
                       </li>
                       <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="AUTO-tab" data-id="auto">AUTO SUBSCRIPTION</button>
+                        <button class="nav-link" id="AUTO-tab" data-id="auto">AUTO SUSCRIPCION</button>
                       </li>
                     </ul>
               
@@ -691,7 +691,8 @@
                   <div class="card">
                     <div class="card-header">
                       <div class="d-md-flex align-items-center">
-                        <h6 class="mb-2 mb-md-0">NEW ORDER</h6>
+                        <h6 class="mb-2 mb-md-0">NUEVA ORDEN   </h6>
+                        <div></div>
                         <form action="/orders" method="get" id="history-search">
                           <input type="text" class="form-control" name="search" placeholder="Search for your orders">
                         </form>
