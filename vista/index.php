@@ -102,7 +102,7 @@
 		</div>
 		<!--end breadcrumb-->
       
-    
+    	<!--aqui copie y pegue la info-->
     <div class="table-responsive">
 				<table class="table">
 					<thead>
