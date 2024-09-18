@@ -1,0 +1,76 @@
+/* Estilos generales para la grid */
+.social-cat .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; /* Espacio entre los cuadros reducido */
+}
+
+/* Cada tarjeta (cuadro) */
+.social-cat .col-sm-6 {
+    background-color: #a3d3ff; /* Color de fondo */
+    border: 1px solid #e0e0e0; /* Borde alrededor de cada cuadro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center; /* Centrar el contenido */
+    padding: 8px; /* Espaciado interno mucho más pequeño */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animación más rápida al hover */
+    flex-basis: calc(10% - 8px); /* Cada cuadro ocupará un 10% del ancho */
+}
+
+.social-cat .col-sm-6:hover {
+    transform: translateY(-2px); /* Levantar cuadro al hacer hover */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Sombra un poco más pronunciada al hover */
+}
+
+/* Estilo para los enlaces */
+.social-cat a.brand-category {
+    text-decoration: none;
+    color: #333; /* Color del texto */
+    font-size: 10px; /* Tamaño del texto reducido */
+    font-weight: bold; /* Texto en negrita */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Tamaño del ícono mucho más pequeño */
+.social-cat a.brand-category i {
+    font-size: 18px; /* Tamaño del ícono reducido */
+    margin-bottom: 5px; /* Espacio mínimo entre ícono y texto */
+}
+
+/* Cambiar color al hacer hover en el enlace */
+.social-cat a.brand-category:hover {
+    color: #007bff; /* Color del texto al hacer hover */
+}
+
+/* Responsividad para diferentes tamaños de pantalla */
+@media (max-width: 1200px) {
+    .social-cat .col-sm-6 {
+        flex-basis: calc(15% - 8px); /* Seis cuadros por fila en pantallas grandes */
+    }
+}
+
+@media (max-width: 992px) {
+    .social-cat .col-sm-6 {
+        flex-basis: calc(20% - 8px); /* Cinco cuadros por fila en pantallas medianas */
+    }
+}
+
+@media (max-width: 768px) {
+    .social-cat .col-sm-6 {
+        flex-basis: calc(25% - 8px); /* Cuatro cuadros por fila en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 576px) {
+    .social-cat .col-sm-6 {
+        flex-basis: calc(33.33% - 8px); /* Tres cuadros por fila en pantallas móviles */
+    }
+}
+
+@media (max-width: 400px) {
+    .social-cat .col-sm-6 {
+        flex-basis: calc(50% - 8px); /* Dos cuadros por fila en pantallas muy pequeñas */
+    }
+}

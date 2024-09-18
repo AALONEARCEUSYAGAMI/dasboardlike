@@ -28,7 +28,8 @@
   <link href="sass/semi-dark.css" rel="stylesheet">
   <link href="sass/bordered-theme.css" rel="stylesheet">
   <link href="sass/responsive.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="sass/style.css">
 </head>
 
 <body>
@@ -55,7 +56,7 @@
                 <div class="card">
                   <div class="card-header">
                     <div class="d-md-flex align-items-center">
-                      <h6 class="mb-2 mb-md-0">CHOOSE A SOCIAL NETWORK</h6>
+                      <h6 class="mb-2 mb-md-0">ELIGE UNA RED SOCIAL</h6>
                      
                     </div>
                   </div>
