@@ -29,7 +29,7 @@
           </a>
           <ul>
             <li><a href="nueva_orden.php"><i class="material-icons-outlined">arrow_right</i>Iniciar Nueva orden</a></li>
-            <li><a href="widgets-static.html"><i class="material-icons-outlined">arrow_right</i>Ordenes Pendientes</a></li>
+            <li><a href="ordenes_pendientes.php"><i class="material-icons-outlined">arrow_right</i>Ordenes Pendientes</a></li>
           </ul>
         </li>
         <li>
