@@ -57,8 +57,8 @@
             <div class="menu-title">Agregar Credito</div>
           </a>
           <ul>
-            <li><a href="app-emailbox.html"><i class="material-icons-outlined">arrow_right</i>Agregar saldo</a></li>
-            <li><a href="app-emailread.html"><i class="material-icons-outlined">arrow_right</i>Consultar saldo</a></li>
+            <li><a href="agregar_credito.php"><i class="material-icons-outlined">arrow_right</i>Agregar saldo</a></li>
+            <li><a href="consultar_saldo.php"><i class="material-icons-outlined">arrow_right</i>Consultar saldo</a></li>
             <li><a href="app-chat-box.html"><i class="material-icons-outlined">arrow_right</i>Historial de Recargas</a></li>
 
           </ul>
